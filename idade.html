@@ -1,0 +1,39 @@
+<!DOCTYPE html> <!-- Parte de HTML -->
+<html lang="pt-BR"> <!-- Idioma do site -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="estilo.css"> <!-- Chamando um arquivo em CSS -->
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1> <!-- Título -->
+    </header>
+
+    <section>
+        <div>
+            <p>Ano de nascimento: <!-- Corpo do site -->
+                <input type="number" name="txtano" id="txtano" min="0"> <!-- Local onde o usuário colocrá a data de nascimento -->
+            </p>
+            <p>Sexo:
+                <input type="radio" name="radsex" id="nasc" checked> <!-- Nome e id para ser chamado-->
+                <label for="nasc">Masculino</label> <!-- Nome da alternativa -->
+                <input type="radio" name="radsex" id="fem"> <!-- Nome e id para ser chamado -->
+                <label for="radio">Feminino</label> <!-- Nome da alternativa -->
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()"> <!-- Como o botão vai aparecer para o usuário, e oque será chamado -->
+            </p>
+            
+        </div>
+        <div id="res"> <!-- Id da div -->
+            Preencha os dados acima para ver o resultado! <!-- Corpo do site -->
+        </div>
+    </section>
+    <footer>
+        <p>&copy;<strong>Élaff Ramos</strong></p> <!-- Aqui fica a copy -->
+    </footer>
+    <script src="script.js"></script> <!-- Chamando um arquivo em JavaScript -->
+</body>
+</html>

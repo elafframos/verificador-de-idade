@@ -50,4 +50,6 @@ function verificar() { //Função
         res.innerHTML = `Detectamos ${gênero} com ${idade} anos!`
         res.append(img) //Para fazer aparecer as imagens
     }
+    fano.value = ''
+    fano.focus()
 }

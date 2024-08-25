@@ -1,5 +1,5 @@
 body {
-    background: rgb(94, 155, 224); /*Cor das página */
+    background: linear-gradient(90deg, rgba(78,78,54,1) 0%, rgba(172,37,37,1) 50%, rgba(78,78,54,1) 100%); /*Cor das página */
     font: normal 20pt arial; /*Letra do site */
 
 }
@@ -7,6 +7,7 @@ body {
 header {
     color: white; /*Cor do título */
     text-align: center; /*Local do título */
+    margin-top: 120px;
 }
 
 section {
